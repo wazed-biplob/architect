@@ -518,3 +518,24 @@ input[type='email'] {
         margin:0;
     }
 }
+
+/* ----------- responsive design for devices smaller than
+--------- figma file design width [1920px] ------------- */
+@media screen and (max-width: 1800px) {
+    .header {
+    width: 100%;
+    }
+    .facts-icon-container {   
+    gap: 12px; 
+    }
+    .logo-container {
+    gap: 40px;
+    }
+    .subscribe {
+        width:100%;
+        margin: 40px 0 10px;
+    }
+    .copyright-text {
+        margin: auto 20px;
+    }   
+}
