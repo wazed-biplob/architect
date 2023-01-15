@@ -525,6 +525,10 @@ input[type='email'] {
     .header {
     width: 100%;
     }
+    .banner > img {
+        width: 94%;
+        height: 100%;
+    }
     .facts-icon-container {   
     gap: 12px; 
     }
