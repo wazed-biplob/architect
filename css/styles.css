@@ -350,8 +350,7 @@ input[type='email'] {
     height: 64px;
     font-size: 20px;
     color:var(--orange);
-    border: 1px solid var(--orange);   
-  
+    border: 1px solid var(--orange); 
     background-color: white;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   
@@ -362,7 +361,7 @@ input[type='email'] {
     Footer Styles
 ------------------*/
 .footer {
-    margin: 0px 240px 216px;
+    margin: 0px 240px 30px;
     background-color: #FFF4E7;
 }
 .copyright-text {
@@ -484,6 +483,9 @@ input[type='email'] {
         flex-flow: column nowrap;
         gap: 30px;
     }
+    .sponsor-text {
+        padding: 15px;
+    }
     /* subscribe */
     .subscribe {
         margin:10px 0;
@@ -494,6 +496,8 @@ input[type='email'] {
         font-weight: 700;
         color: #727272;
         width:100%;
+        background-color: white;
+        margin-bottom: 20px;
     }
     .subscribe-container {
         flex-flow: column nowrap;
