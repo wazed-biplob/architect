@@ -10,8 +10,7 @@
 color
 --------------------*/
 :root {
-    --orange: #FF900E;
-    
+    --orange: #FF900E;    
 }
 
 /*-------------------
@@ -158,9 +157,11 @@ Header styles
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-top: 32px;  
 }
+
 /*----------------------------------
      Secondary Features Styles
 -----------------------------------*/
+
 .features-two {
     display:flex;
     flex-flow: row nowrap;
@@ -227,7 +228,6 @@ Header styles
     padding: 46px 42px;
     position: absolute;
     bottom:-10%; left:-10%;
-
 }
 .experience {
     font-size: 25px;
@@ -236,6 +236,7 @@ Header styles
 /* ---------- -------
     facts styles 
 -------------------*/
+
 .facts {
     display: flex;
     flex-flow: column nowrap;
@@ -267,8 +268,7 @@ Header styles
     border: 1px solid var(--orange);
     border-radius: 8px; 
     transition: transform 1s;
-    padding:30px;
-     
+    padding:30px;     
 }
 .facts-box > p:nth-child(2) {
     font-size:45px;
@@ -308,7 +308,6 @@ Header styles
     list-style: none;
     filter: grayscale(100%);
 }
-
 
 /* -----    Extra Section   ------*/
 /*-------   Subscribe Section Styles ---------*/
@@ -352,14 +351,13 @@ input[type='email'] {
     color:var(--orange);
     border: 1px solid var(--orange); 
     background-color: white;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  
 }
-
 
 /*-----------------
     Footer Styles
 ------------------*/
+
 .footer {
     margin: 0px 240px 30px;
     background-color: #FFF4E7;
@@ -371,7 +369,7 @@ input[type='email'] {
     text-align: center;
 }
 
-/* responsive design for small devices */
+/* ------- responsive design for small devices ----- */
 
 @media screen and (max-width: 576px) {
     .header {
@@ -489,6 +487,7 @@ input[type='email'] {
     /* subscribe */
     .subscribe {
         margin:10px 0;
+        padding: 15px;
     }
     .subscribe > h2 {
         text-align: center;
@@ -496,7 +495,6 @@ input[type='email'] {
         font-weight: 700;
         color: #727272;
         width:100%;
-        background-color: white;
         margin-bottom: 20px;
     }
     .subscribe-container {
@@ -517,7 +515,4 @@ input[type='email'] {
     .copyright-text {
         margin:0;
     }
-    }
-.hide {
-    display:none;
 }
